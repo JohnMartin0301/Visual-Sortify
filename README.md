@@ -29,19 +29,24 @@ Visual|Sortify is a captivating sorting visualizer project that brings algorithm
 
 ## Sorting Algorithms
 -> Bubble Sort
-   Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+   
+   Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong         order.
 
 -> Merge Sort
-   Merge Sort is an efficient, stable, and comparison-based sorting algorithm. It works by dividing the unsorted list into smaller sublists and then merging those sublists in a sorted manner.
+   
+   Merge Sort is an efficient, stable, and comparison-based sorting algorithm. It works by dividing the unsorted list into smaller sublists and then merging     those sublists in a sorted manner.
 
 -> Heap Sort
-   Heap Sort is a comparison-based sorting algorithm that uses a binary heap data structure to build a max-heap and then repeatedly extracts the maximum element to sort the array.
+   
+   Heap Sort is a comparison-based sorting algorithm that uses a binary heap data structure to build a max-heap and then repeatedly extracts the maximum         element to sort the array.
 
 -> Insertion Sort
-   Insertion Sort is a simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as Quick Sort or Merge Sort.
+   
+   Insertion Sort is a simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more        advanced algorithms such as Quick Sort or Merge Sort.
 
 -> Quick Sort
-   Quick Sort is a highly efficient and widely used sorting algorithm. It uses a divide-and-conquer strategy to partition the array into smaller sub-arrays and sort them.
+   
+   Quick Sort is a highly efficient and widely used sorting algorithm. It uses a divide-and-conquer strategy to partition the array into smaller sub-arrays      and sort them.
 
 
 

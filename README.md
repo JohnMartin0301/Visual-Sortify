@@ -73,3 +73,11 @@ Visual|Sortify is a captivating sorting visualizer project that brings algorithm
 -> CSS
 
 -> JavaScript
+
+
+
+
+
+
+## Live Demo
+https://johnmartin0301.github.io/Visual-Sortify/

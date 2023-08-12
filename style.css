@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700;800;900&display=swap');
-
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Source Sans 3', sans-serif;
 }
 
-h1 {
+h1{
     text-align: center;
     margin-top: 50px;
     letter-spacing: 1px;
@@ -17,8 +15,7 @@ h1 {
 h2 {
     text-align: center;
     letter-spacing: 1px;
-    color: #f8f9fa;
-    margin-bottom: 50px;  
+    color: #f8f9fa;  
 }
 .container{
     max-width: 100vw;
@@ -38,14 +35,14 @@ h2 {
     flex-direction: row;
 }
 
-.bar {
+.bar{
     width: 5px;
     background-color: #1da1f2;
     margin: 0 1.5px;
     border-radius: 1.3px;
 }
 
-body {
+body{
     background-color: #212529;
 }
 
@@ -54,6 +51,7 @@ body {
 }
 
 .buttons_container > button, select{
+    margin-top: 50px;
     width: 200px;
     height: 35px;
     background-color: #1da1f2;
@@ -71,27 +69,50 @@ button, select:hover {
     background-color: #187bb9;
 }
 
-button:hover {
+button:hover{
     background-color: #187bb9;
-}
+} 
 
-/* Add media queries for different screen sizes */
-@media (max-width: 600px) {
-    .buttons_container {
-      margin-left: 0;
-      margin-top: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      padding: 20px 0px;
-    }
-  
-    select, button {
+/* Add a media query to adjust layout for smaller screens */
+@media screen and (max-width: 768px) {
+    .header_container {
+      text-align: center;
       margin-top: 20px;
     }
   
-    .bar {
-      margin: 0 1.5px;
+    .buttons_container {
+      text-align: center;
+      margin-left: 0;
     }
   }
+  
+  /* Update container styling for better responsiveness */
+  .container {
+    max-width: 100%;
+    width: 100%;
+    padding: 20px 10px;
+  }
+  
+  /* Adjust font size for better readability on smaller screens */
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  /* Adjust button and select width for better mobile experience */
+  .buttons_container > button,
+  select {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  /* Adjust margin for better spacing between elements */
+  .buttons_container > button,
+  select,
+  #slider {
+    margin: 10px 0;
+  }
+  

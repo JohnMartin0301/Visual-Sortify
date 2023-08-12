@@ -73,46 +73,43 @@ button:hover{
     background-color: #187bb9;
 } 
 
-/* Add a media query to adjust layout for smaller screens */
 @media screen and (max-width: 768px) {
+    /* Adjust layout for smaller screens */
     .header_container {
       text-align: center;
-      margin-top: 20px;
+      margin-bottom: 20px;
     }
-  
-    .buttons_container {
-      text-align: center;
-      margin-left: 0;
+    
+    h1 {
+      font-size: 24px;
+      margin-top: 10px;
     }
-  }
-  
-  /* Update container styling for better responsiveness */
-  .container {
-    max-width: 100%;
-    width: 100%;
-    padding: 20px 10px;
-  }
-  
-  /* Adjust font size for better readability on smaller screens */
-  h1 {
-    font-size: 24px;
-  }
-  
-  h2 {
-    font-size: 18px;
-  }
-  
-  /* Adjust button and select width for better mobile experience */
-  .buttons_container > button,
-  select {
-    width: 100%;
-    max-width: 200px;
-  }
-  
-  /* Adjust margin for better spacing between elements */
-  .buttons_container > button,
-  select,
-  #slider {
-    margin: 10px 0;
+    
+    h2 {
+      font-size: 18px;
+      margin-top: 5px;
+    }
+    
+    .container {
+      max-width: 100%;
+      width: 100%;
+      padding: 20px 10px;
+    }
+    
+    .bars_buttons_container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    /* Adjust margins and width for buttons and select elements */
+    .buttons_container > button,
+    select,
+    #slider {
+      margin: 10px 0;
+      width: 100%;
+      max-width: 200px;
+    }
   }
   

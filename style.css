@@ -73,7 +73,7 @@ button:hover{
     background-color: #187bb9;
 } 
 
-@media screen and (max-width: 768px) {
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
     /* Adjust layout for smaller screens */
     .header_container {
       text-align: center;

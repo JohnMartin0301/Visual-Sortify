@@ -76,7 +76,7 @@ button:hover {
 }
 
 /* Add media queries for different screen sizes */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .buttons_container {
       margin-left: 0;
       margin-top: 0;

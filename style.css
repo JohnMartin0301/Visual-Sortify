@@ -73,43 +73,44 @@ button:hover{
     background-color: #187bb9;
 } 
 
+
 @media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
-    /* Adjust layout for smaller screens */
-    .header_container {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    
-    h1 {
-      font-size: 24px;
-      margin-top: 10px;
-    }
-    
-    h2 {
-      font-size: 18px;
-      margin-top: 5px;
-    }
-    
     .container {
-      max-width: 100%;
-      width: 100%;
-      padding: 20px 10px;
+      margin-top: 20px;
+      flex-direction: column;
+      align-items: center;
     }
     
-    .bars_buttons_container {
+    .bars_container {
+      margin-top: 20px;
+      flex-direction: column;
+    }
+    
+    .bar {
+      margin: 1.5px 0;
+      width: 80%;
+    }
+    
+    .buttons_container {
+      margin-left: 0;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
     }
     
-    /* Adjust margins and width for buttons and select elements */
-    .buttons_container > button,
-    select,
-    #slider {
-      margin: 10px 0;
-      width: 100%;
-      max-width: 200px;
+    .buttons_container > button, select {
+      width: 80%;
     }
   }
+  
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .container {
+      margin-top: 20px;
+    }
+    
+    .bars_container {
+      margin-top: 20px;
+    }
+  }
+  
   

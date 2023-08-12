@@ -71,46 +71,4 @@ button, select:hover {
 
 button:hover{
     background-color: #187bb9;
-} 
-
-
-@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
-    .container {
-      margin-top: 20px;
-      flex-direction: column;
-      align-items: center;
-    }
-    
-    .bars_container {
-      margin-top: 20px;
-      flex-direction: column;
-    }
-    
-    .bar {
-      margin: 1.5px 0;
-      width: 80%;
-    }
-    
-    .buttons_container {
-      margin-left: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    
-    .buttons_container > button, select {
-      width: 80%;
-    }
-  }
-  
-  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .container {
-      margin-top: 20px;
-    }
-    
-    .bars_container {
-      margin-top: 20px;
-    }
-  }
-  
-  
+}
